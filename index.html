@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+</head>
+<body>
+    <header>
+        <h1>Barber Black</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="img1">
+                <h2>Imagem:</h2>
+                <p>Seu estilo começa aqui!</p>
+                <div class="botao">
+                    <input type="button" value="Agendar Horário">
+                </div>
+            </div>
+        </section>
+        <section class="sobre">
+            <h2>Sobre nós</h2>
+            <div class="img2">
+                <p>Imagem:</p>
+            </div>
+            <div class="textosobre">
+                <p>A Barbearia que entende seu estilo!</p>
+                <p>Texto...</p>
+            </div>
+        </section>
+        <section class="servicos">
+            <h2>Tabela de Preços</h2>
+            <div class="precos">
+                <ul>
+                    <li>CORTE <br> R$45</li>
+                    <li>BARBA <br> R$30</li>
+                    <li>CORTE + BARBA <br> R$65</li>
+                    <li>SOMBRANCELHA <br> R$15</li>
+                </ul>
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="imagens">
+                <ul>
+                    <li>Imagem</li>
+                    <li>Imagem</li>
+                    <li>Imagem</li>
+                    <li>Imagem</li>
+                </ul>
+            </div>
+        </section>
+        <section class="depoimentos">
+            <ul>
+                <li>⭐⭐⭐⭐⭐ <br> Cliente1</li>
+                <li>⭐⭐⭐⭐⭐ <br>Cliente2</li>
+                <li>⭐⭐⭐⭐⭐ <br>Cliente3</li>
+            </ul>
+        </section>
+        <section class="agendar">
+            <div class="textoagendar">
+                <h2>Agendamento</h2>
+                <h3>SEU PRÓXIMO CORTE ESTÁ LOGO ABAIXO!</h3>
+            </div>
+        </section>
+        <section class="contato">
+            <form action="cadastro.php">
+                <div class="formulario">
+                    <p><label for="inome">Nome:<input type="text" name="nome" id="inome"></label></p>
+
+                    <p><label for="itel">Telefone:<input type="tel" name="tel" id="itel"></label></p>
+
+                    <p>Serviços:</p>
+                        <p><label for="icorte">
+                        <input type="checkbox" name="corte" id="icorte">Corte</label></p>
+                        <p><label for="ibarba">
+                        <input type="checkbox" name="barba" id="ibarba">Barba</label></p>
+
+                        <p><label for="icortebarba"><input type="checkbox" name="cortebarba" id="icortebarba">Corte + Barba</label></p>
+
+                        <p><label for="isobran"><input type="checkbox" name="sobran" id="isobran">Sobrancelha</label></p>
+
+                    <p><label for="idata">Data: </label><input type="date" name="data" id="idata" value="2026-08-20"></p>
+
+                    <p><label for="ihora">Horário:</label><input type="time" name="hora" id="ihora"></p>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+            <div class="informacao">
+                <p>📍 Endereço</p>
+                <p>📞 Telefone</p>
+                <p>🕐 Horário de Funcionamento</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>Barber Black <a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">WhatsApp</a> | <a href="#" target="_blank">Facebook</a></p>
+        </footer>
+
+</body>
+</html>
