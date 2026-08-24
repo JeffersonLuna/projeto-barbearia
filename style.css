@@ -88,25 +88,26 @@ header a:hover {
 }
 .servicos h2 {
     text-align: center;
-    grid-area: 1 / 1 / 2 / -1;
 }
 .servicos ul {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .servicos li {
     list-style-type: none;
     padding: 10px;
     margin: 10px;
     background-color: #0D0D0D;
-    width: 200px;
+    width: 80%;
     border-radius: 10px;
     text-align: center;
-    transition: 0.7s, color 0.5s;
+    transition: 0.4s, color 0.5s;
     cursor: pointer;
 }
-.servicos  p:hover {
+.servicos  li:hover {
     color: var(--dourado);
     font-weight: bold;
     font-size: 17px;
