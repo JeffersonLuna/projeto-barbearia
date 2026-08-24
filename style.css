@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 * {
     padding: 0px;
     margin: 0px;
@@ -52,7 +54,7 @@ header a:hover {
     background-image: url(imagens/VISS-Babearia-Visagista-1400x933.jpg);
     background-size: cover;
     height: 300px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,11 +86,15 @@ header a:hover {
 }
 .servicos {
     color: var(--texto);
-    background-color: #464646d8;
+    background-color: var(--destaque-claro);
 }
 .servicos h2 {
     text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: var(--dourado);
+    text-shadow: 1px 1px 4px black;
 }
+
 .servicos ul {
     display: flex;
     flex-direction: column;
@@ -97,6 +103,7 @@ header a:hover {
     align-items: center;
 }
 .servicos li {
+    font-family: "Rubik", sans-serif;
     list-style-type: none;
     padding: 10px;
     margin: 10px;
@@ -111,4 +118,62 @@ header a:hover {
     color: var(--dourado);
     font-weight: bold;
     font-size: 17px;
+}
+section.galeria {
+    background-color: var(--destaque-claro);
+}
+section.galeria .imagens ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 260px 260px;
+    gap: 4px;
+}
+.imagens .corte1 {
+    background-image: url(imagens/corte-exemplo1.jpeg);
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom-right-radius: 8px;
+}
+.imagens .corte2 {
+    background-image: url(imagens/corte-exemplo2.jpeg);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom-left-radius: 8px;
+
+}
+.imagens .corte3 {
+    background-image: url(imagens/corte-exemplo3.jpeg);
+    background-size: cover;
+    background-position: right;
+    border-top-right-radius: 8px;
+}
+.imagens .corte4 {
+    background-image: url(imagens/corte-exemplo4.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 8px;
+}
+section.depoimentos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: var(--destaque-claro)
+}
+.depoimentos .cliente {
+    background-color: rgb(231, 231, 231);
+    height: 120px;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 7px;
+}
+.depoimentos .nomepessoa1 {
+    margin-top: 10px;
+    font-weight: bold;
 }
