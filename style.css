@@ -168,7 +168,7 @@ section.depoimentos{
 }
 .depoimentos .cliente {
     background-color: rgb(231, 231, 231);
-    height: 120px;
+    height: 80%;
     margin: 4px;
     padding: 4px;
     border-radius: 7px;
@@ -207,7 +207,7 @@ input {
 }
 .formulario .enviar {
     background-color: var(--dourado);
-    width: 70px;
-    height: 35px;
+    width: 20%;
+    height: 50%;
     margin-top: 10px;
 }
