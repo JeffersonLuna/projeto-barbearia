@@ -187,14 +187,14 @@ form {
     color: var(--destaque);
     background-color: azure;
     width: 50%;
-    height: 30%;
+    height: 80vw;
     border-radius: 8px;
     padding: 8px;
     margin: auto;
 }
 form .formulario {
     font-size: 1.2em;
-    margin-top: 17px;
+    margin-top: 40px;
 }
 input {
     background-color: rgba(181, 194, 194, 0.61);
@@ -202,14 +202,17 @@ input {
     border-radius: 5px;
     padding: 4px;
 }
+.formulario {
+    height: 90%;
+}
 .formulario p {
     margin-top: 4px;
 }
 .formulario .enviar {
     background-color: var(--dourado);
-    width: 20%;
-    height: 50%;
-    margin-top: 10px;
+    width: 30%;
+    height: 10%;
+    margin-top: 20px;
 }
 input#itel, input#inome{
     width: 60%;
