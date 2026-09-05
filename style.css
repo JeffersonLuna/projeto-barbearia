@@ -187,7 +187,7 @@ form {
     color: var(--destaque);
     background-color: azure;
     width: 50%;
-    height: 350px;
+    height: 30%;
     border-radius: 8px;
     padding: 8px;
     margin: auto;
@@ -210,4 +210,7 @@ input {
     width: 20%;
     height: 50%;
     margin-top: 10px;
+}
+input#itel, input#inome{
+    width: 60%;
 }
