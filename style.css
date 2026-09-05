@@ -175,15 +175,17 @@ section.depoimentos{
 form {
     color: var(--destaque);
     background-color: azure;
-    width: 50%;
-    height: 80vw;
+    width: 80%;
+    height: auto;
     border-radius: 8px;
     padding: 8px;
     margin: auto;
 }
 form .formulario {
+    height: auto;
     font-size: 1.2em;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 input {
     background-color: rgba(181, 194, 194, 0.61);
@@ -201,7 +203,7 @@ input {
 .formulario .enviar {
     background-color: var(--dourado);
     width: 30%;
-    height: 10%;
+    height: 15%;
     margin-top: 20px;
 }
 input#itel, input#inome{
