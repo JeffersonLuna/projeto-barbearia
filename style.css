@@ -36,6 +36,7 @@ header ul {
     background-position: center;
     height: 150px;
     width: 120px;
+    flex-shrink: 0;
 }
 header a {
     text-decoration: none;
@@ -195,7 +196,7 @@ input {
     margin-top: 6px;
 }
 .formulario {
-    height: 90%;
+    height: auto;
 }
 .formulario p {
     margin-top: 4px;
