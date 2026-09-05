@@ -13,11 +13,13 @@
     --dourado: #C9A227;
 
 }
+body {
+    background-color: var(--destaque-claro);
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--destaque-claro);
     padding: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -42,7 +44,6 @@ header a {
     font-size: 14px;
     font-weight: bold;
     transition: 0.5s, color 0.7s;
-    background-color: var(--destaque);
     padding: 6px;
     border-radius: 7px;
 }
@@ -62,7 +63,6 @@ header a:hover {
 }
 .img01 p {
     color: var(--dourado);
-    background-color: rgba(83, 83, 83, 0.432);
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
     font-size: 18px;
     width: 60%;
@@ -81,12 +81,10 @@ header a:hover {
 .img01 p:hover {
     font-size: 20px;
     width: 70%;
-    background-color: rgba(83, 83, 83, 0.644);
     cursor: pointer;
 }
 .servicos {
     color: var(--texto);
-    background-color: var(--destaque-claro);
 }
 .servicos h2 {
     text-align: center;
@@ -118,9 +116,6 @@ header a:hover {
     color: var(--dourado);
     font-weight: bold;
     font-size: 17px;
-}
-section.galeria {
-    background-color: var(--destaque-claro);
 }
 section.galeria .imagens ul{
     display: grid;
@@ -164,7 +159,6 @@ section.depoimentos{
     justify-content: center;
     align-items: center;
     height: 150px;
-    background-color: var(--destaque-claro)
 }
 .depoimentos .cliente {
     background-color: rgb(231, 231, 231);
@@ -201,6 +195,7 @@ input {
     color: var(--destaque-claro);
     border-radius: 5px;
     padding: 4px;
+    margin-top: 6px;
 }
 .formulario {
     height: 90%;
