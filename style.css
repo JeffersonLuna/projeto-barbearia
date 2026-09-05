@@ -30,6 +30,7 @@ header ul {
     flex-direction: row;
     margin-right: 27px;
     flex-shrink: 0;
+    flex-grow: 0;
 }
 .logo {
     background-image: url(imagens/barber-black-logo-texto-branco.png);
@@ -49,6 +50,7 @@ header a {
     padding: 6px;
     border-radius: 7px;
     flex-shrink: 0;
+    flex-grow: 0;
 }
 header a:hover {
     color: var(--dourado);
