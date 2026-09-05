@@ -158,7 +158,6 @@ section.depoimentos{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    height: 150px;
 }
 .depoimentos .cliente {
     background-color: rgb(231, 231, 231);
@@ -166,10 +165,6 @@ section.depoimentos{
     margin: 4px;
     padding: 4px;
     border-radius: 7px;
-}
-.depoimentos .nomepessoa1 {
-    margin-top: 10px;
-    font-weight: bold;
 }
 .textoagendar {
     text-align: center;
