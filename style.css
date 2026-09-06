@@ -23,7 +23,7 @@ header {
     padding: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
-    width: 98%;
+    width: auto;
 }
 header ul {
     list-style-type: none;
