@@ -230,3 +230,7 @@ footer a{
 footer p {
     color: #ffd343;
 }
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
