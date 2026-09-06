@@ -27,22 +27,23 @@ header {
     width: auto;
     background-color: var(--destaque-claro);
     box-sizing: border-box;
+    flex-shrink: 1;
 }
 header ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     margin-right: 27px;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-grow: 0;
 }
 .logo {
     background-image: url(imagens/barber-black-logo-texto-branco.png);
     background-size: cover;
     background-position: center;
-    height: 150px;
-    width: 120px;
-    flex-shrink: 0;
+    height: 20%;
+    width: 20%;
+    flex-shrink: 1;
     flex-grow: 0;
     overflow-x: hidden;
 }
