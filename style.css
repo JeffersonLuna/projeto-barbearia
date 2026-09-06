@@ -179,8 +179,9 @@ section.depoimentos{
     margin-bottom: 20px;
 }
 form {
+    font-family: "Rubik", sans-serif;
     color: var(--destaque);
-    background-color: azure;
+    background-color: rgb(174, 175, 175);
     width: 80%;
     height: auto;
     border-radius: 8px;
@@ -214,4 +215,18 @@ input {
 }
 input#itel, input#inome{
     width: 60%;
+}
+.informacao {
+    color: var(--dourado);
+    margin-top: 40px;
+}
+.informacao p {
+    margin-bottom: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(1, 167, 111);
+}
+footer p {
+    color: #ffd343;
 }
