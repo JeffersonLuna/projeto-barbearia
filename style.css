@@ -45,7 +45,6 @@ header ul {
     width: 150px;
     flex-shrink: 1;
     flex-grow: 0;
-    overflow-x: hidden;
 }
 header a {
     text-decoration: none;
