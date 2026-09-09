@@ -41,7 +41,6 @@ header ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin-right: 27px;
     flex-shrink: 1;
     flex-grow: 0;
 }
